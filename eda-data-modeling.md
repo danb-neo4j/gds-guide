@@ -72,7 +72,7 @@ RETURN
 ```
 
 **Node Degree Distribution**
-<br>*Distribution of all relationships for all nodes in the database. This query can be modified to address specific node types by modifying the initial MATCH (n) to include a label. It can also be modified for a specific relationship type by including [:REL_TYPE] between the dashes of (n)--(). If your graph is large, you can also add a LIMIT statement to return only the top N nodes.* 
+<br>*This query returns the distribution of all relationships for all nodes in the database. It can be modified to address specific node types by modifying the initial MATCH (n) to include a label. It can also be modified for a specific relationship type by including [:REL_TYPE] between the dashes of (n)--(). If your graph is large, you can also add a LIMIT statement to return only the top N nodes.* 
 
 ```
 MATCH (n)
