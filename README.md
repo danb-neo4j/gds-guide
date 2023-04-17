@@ -29,6 +29,10 @@ For the initial iteration, the document will make the following assumptions abou
 * Neo4j Memory Configuration
 * Cypher
 
-**Graph Data Science Resources**
+**EDA and Data Modeling**
+* Graph and Non-Graph EDA
+* Temporal Data Modeling
+
+**Neo4j Graph Data Science Resources**
 
 **Usecase-Specific Resources**
