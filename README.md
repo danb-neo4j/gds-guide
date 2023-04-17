@@ -24,7 +24,7 @@ For the initial iteration, the document will make the following assumptions abou
 * You do not need to review all of the resources in each section. There may be documentation, book chapters, blog articles, videos, or notebooks, so leverage those that best match your learning style and immediate need. 
 
 ## Table of Contents
-**[Neo4j Database Resources](https://github.com/danb-neo4j/gds-guide/blob/main/neo4j-resources.md):** General resources about graph databases and Neo4j specifically.
+**[Neo4j Database Resources:](https://github.com/danb-neo4j/gds-guide/blob/main/neo4j-resources.md)** A page of general resources about graph databases and Neo4j specifically.
 
 **Graph Data Science Resources**
 
