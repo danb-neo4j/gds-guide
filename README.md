@@ -39,4 +39,10 @@ For the initial iteration, the document will make the following assumptions abou
 
 **[Neo4j Graph Data Science Resources](https://github.com/danb-neo4j/gds-guide/blob/main/gds-resources.md)**
 
-**Usecase-Specific Resources**
+**[Usecase-Specific Resources](https://github.com/danb-neo4j/gds-guide/blob/main/usecase-specific.md)**
+* Fraud and Anti-Money Laundering
+* Customer and Patient Journey
+* Recommendation Systems
+* Machine Learning Features
+* Logistics
+* Healthcare
