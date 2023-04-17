@@ -29,9 +29,11 @@ For the initial iteration, the document will make the following assumptions abou
 * Neo4j Memory Configuration
 * Cypher
 
-**EDA and Data Modeling**
-* Graph and Non-Graph EDA
-* Temporal Data Modeling
+**[EDA and Graph EDA](https://github.com/danb-neo4j/gds-guide/blob/main/graph-eda.md)**
+
+**Graph Data Modeling**
+* Graph Data Modeling Overview
+* Temporal Graph Data Modeling
 
 **Neo4j Graph Data Science Resources**
 
