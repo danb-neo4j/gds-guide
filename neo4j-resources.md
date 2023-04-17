@@ -25,3 +25,26 @@ The following resources should be enough to get started with Cypher if you have 
 * Graph Academy: [Cypher Fundamentals](https://graphacademy.neo4j.com/courses/cypher-fundamentals/)
 * [Cypher Reference Card](https://neo4j.com/docs/cypher-refcard/current/)
 * Book: [Graph Data Processing with Cypher](https://www.packtpub.com/product/graph-data-processing-with-cypher/9781804611074)
+
+## Awesome Procedures on Cypher (APOC) Library
+The [Neo4j APOC Library](https://neo4j.com/labs/apoc/) contains powerful functions that are useful for a variety of tasks within the Neo4j database. As of Neo4j 5.x, the APOC Core is fully supported while APOC Extended will continue as a community-supported initiative. 
+
+For data scientists, as well as all Neo4j users, the APOC Core and Extended libraries are especially useful if you are looking for or trying to write a Cypher statement to perform what you suspect might be a common task. Key features of the APOC library include:
+* Data manipulation including updates, schema changes, data conversions, and data validation. For example, data conversion functions are available via apoc.convert and schema functions are available via apoc.schema.
+* Batch processing, especially using apoc.periodic.iterate() which enables you to batch large updates to the graph that otherwise might cause memory or other issues. 
+* Data import and export, including to and from a variety of formats such as JSON, XML, and CSV. These are generally available via apoc.load and apoc.export.
+* Text search and analysis that enable you to use regular expressions, full-text search, and fuzzy searching. Many of these are available via apoc.text.
+
+Resources to learn more about the APOC Core and Extended Libraries include:
+* [APOC Core User Guide](https://neo4j.com/docs/apoc/current/)
+* [APOC Core Github](https://github.com/neo4j/apoc)
+* [APOC Extended User Guide](https://neo4j.com/labs/apoc/5/)
+* [Michael Hunger’s APOC Series on YouTube](https://youtube.com/playlist?list=PL9Hl4pk2FsvXEww23lDX_owoKoqqBQpdq)
+
+## Data Loading
+*There are several ways to load data into Neo4j. Apache Arrow is in alpha, but can be highly effective for large data sets.*
+* Getting Started: [Data Importing](https://neo4j.com/docs/getting-started/current/data-import/)
+* Graph Academy: [Importing CSV Data into Neo4j](https://graphacademy.neo4j.com/courses/importing-data/)
+* Developer Guide: [Importing Data into Neo4j](https://neo4j.com/developer/data-import/)
+* [Apache Arrow](https://neo4j.com/docs/graph-data-science/current/installation/installation-apache-arrow/)
+* Notebook: [Ingest tabular data to Neo4j via GDS Python](https://github.com/danb-neo4j/NODES2022_GraphEDA/blob/main/NODES2022_Load_Graph_Data.ipynb)
