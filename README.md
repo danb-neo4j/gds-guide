@@ -37,8 +37,8 @@ For the initial iteration, the document will make the following assumptions abou
 * Graph Data Modeling Overview
 * Temporal Graph Data Modeling
 
-**[Neo4j Graph Data Science Resources](https://github.com/danb-neo4j/gds-guide/blob/main/gds-resources.md)**
-* General Graph Data Science
+**Neo4j Graph Data Science Resources**
+* [General Graph Data Science](https://github.com/danb-neo4j/gds-guide/blob/main/gds-resources.md)
 * Graph Embedding Algorithms
 
 **[Usecase-Specific Resources](https://github.com/danb-neo4j/gds-guide/blob/main/usecase-specific.md)**
