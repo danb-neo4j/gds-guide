@@ -39,7 +39,7 @@ For the initial iteration, the document will make the following assumptions abou
 
 **Neo4j Graph Data Science Resources**
 * [General Graph Data Science](https://github.com/danb-neo4j/gds-guide/blob/main/gds-resources.md)
-* Graph Embedding Algorithms
+* [Graph Embedding Algorithms](https://github.com/danb-neo4j/gds-guide/blob/main/graph-embeddings.md)
 
 **[Usecase-Specific Resources](https://github.com/danb-neo4j/gds-guide/blob/main/usecase-specific.md)**
 * Fraud and Anti-Money Laundering
