@@ -38,6 +38,8 @@ For the initial iteration, the document will make the following assumptions abou
 * Temporal Graph Data Modeling
 
 **[Neo4j Graph Data Science Resources](https://github.com/danb-neo4j/gds-guide/blob/main/gds-resources.md)**
+* General Graph Data Science
+* Graph Embedding Algorithms
 
 **[Usecase-Specific Resources](https://github.com/danb-neo4j/gds-guide/blob/main/usecase-specific.md)**
 * Fraud and Anti-Money Laundering
