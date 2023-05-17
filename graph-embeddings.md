@@ -30,7 +30,7 @@ FastRP can be applied to a variety of data science tasks, including:
 #### Factors to Consider 
 When considering whether to use FastRP for a particular project or graph, several factors should be evaluated:
 * **Graph size**: FastRP is designed to be efficient and scalable, making it suitable for large graphs. 
-* **Node attribute data***: FastRP can include node features in the embedding process, making it a good choice if you have rich node attribute data that you want to incorporate into your analysis.
+* **Node attribute data**: FastRP can include node features in the embedding process, making it a good choice if you have rich node attribute data that you want to incorporate into your analysis.
 * **Graph structure**: FastRP is well-suited to graphs that have a meaningful structural or topological component, as it uses personalized PageRank, which considers the structure of the graph in generating embeddings.
 * **Downstream task**: FastRP can be used in many machine learning tasks, including node classification, link prediction, and community detection. 
 * **Speed and efficiency requirements**: FastRP is designed to be computationally efficient, making it a good choice if you need to generate embeddings quickly or if you're working with limited computational resources.
