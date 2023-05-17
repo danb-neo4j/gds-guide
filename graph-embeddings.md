@@ -10,9 +10,7 @@ As of May 2023 Neo4j Graph Data Science currently supports four embedding algori
 Documentation summaries and usage considerations are provided below to help data scientists understand the pros and cons of each algorithm and make an informed choice when selecting one for a project. As always, consult the [official Neo4j Graph Data Science documentation](https://neo4j.com/docs/graph-data-science/current/machine-learning/node-embeddings/) for the most up-to-date and version-specific guidance for these and all algorithms. 
 
 ### Fast Random Projection (FastRP)
-#### Documentation Summary
-[Link to Documentation](https://neo4j.com/docs/graph-data-science/current/machine-learning/node-embeddings/fastrp/)
-
+#### [Documentation](https://neo4j.com/docs/graph-data-science/current/machine-learning/node-embeddings/fastrp/) Summary
 Fast Random Projection (FastRP) is a graph embedding algorithm that leverages random projection techniques to perform dimensionality reduction while preserving most of the distance information between nodes. It operates on graphs by assigning initial random vectors to nodes using a technique called very sparse random projection. The algorithm then iterates, averaging over node neighborhoods to construct intermediate embeddings, which are combined to produce the final node embeddings. This approach exploits higher-order relationships in the graph while maintaining scalability.
 
 The FastRP implementation in the Neo4j Graph Data Science (GDS) library supports weighted graphs and directed or undirected graphs, although the original algorithm designed for undirected graphs. To use weighted graphs, set the relationshipWeightProperty parameter to an existing relationship property. For directed graphs, only outgoing neighbors are considered when computing the intermediate embeddings, but it is recommended to start with undirected graphs, as this is what the original algorithm was evaluated on.
