@@ -9,6 +9,8 @@ This document is a practical, hands-on guide for data scientists encountering Ne
 The intent is to provide a critical path roadmap for what to learn and in what order to learn it, focusing on practical, hands-on-keyboard resources (most of which already exist) that can help the reader begin using Neo4j and GDS to produce results as quickly as possible. 
 As this document evolves it will link to more resources, especially industry-specific and use case-specific resources. 
 
+*Note: This repository is an unofficial guide intended to complement the [official Neo4j documentation](https://neo4j.com/docs/) and official Neo4j Support.*
+
 ## Audience
 Anyone starting to use the Neo4j GDS library for the first time, with an emphasis on data scientists.
 
