@@ -20,6 +20,10 @@ Several GDS Algorithm Families can be combined to perform highly-impactful custo
 * **Pathfinding:** With the graph data formatted as journeys, pathfinding algorithms can identify the length of patient journeys, key events, and specific patterns within journeys.
 * **Embeddings:** Graph embeddings are highly effective in capturing graph structures, including full journeys and similarity graphs, in low-dimensional vectors. Embeddings can be used to capture subgraphs, such as if the data is too large for the Node Similarity algorithm to complete, and be used when running KNN. Embeddings are also effective in helping to visualize communities and detect outliers. 
 
+
+A real-world example of customer journey analysis at Microsoft, using Neo4j, is detailed in the fantastic blog post [Using graphs to model and analyze the customer journey
+](https://medium.com/data-science-at-microsoft/using-graphs-to-model-and-analyze-the-customer-journey-4b1f1e9f3696).
+
 The following resources are patient journey and health care focused. 
 * Blog: [Modeling Patient Journeys with Neo4j](https://medium.com/neo4j/modeling-patient-journeys-with-neo4j-d0785fbbf5a2)
 * Book: [Graph Data Processing with Cypher](https://www.packtpub.com/product/graph-data-processing-with-cypher/9781804611074) Although this book is about Cypher, it uses a health care and patient data set similar to in the Patient Journey blog above.
