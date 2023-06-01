@@ -61,6 +61,7 @@ LLMs are primarily used for NLP tasks and not directly used for creating graph e
 In most standard graph data science tasks, dedicated graph embedding algorithms like node2vec, DeepWalk, or GraphSAGE are used, as they are designed specifically for the unique challenges and requirements of working with graph data. LLMs like GPT can complement these algorithms, especially when the graph involves complex text data as node or edge attributes.
 
 **Resources:**
+
 [GDS Guide: Graph Embeddings Resources](https://github.com/danb-neo4j/gds-guide/blob/main/gds-resources.md#embeddings)
 
 [Explanation of GDS Embedding Algorithms](https://github.com/danb-neo4j/gds-guide/blob/main/graph-embeddings.md)
@@ -82,7 +83,9 @@ Another benefit of LLMs is their ability to generate human-friendly explanations
 For instance, suppose you've run a community detection algorithm on your graph data. The LLM could generate a summary of the results, explaining how many communities were detected, what the key characteristics of each community are, and what this might imply in the context of the data. Such capability is extremely valuable for presenting findings to stakeholders and for making the results of data science workflows understandable to non-experts.
 
 **Resources:** 
+
 [LangChain with Neo4j](https://towardsdatascience.com/langchain-has-added-cypher-search-cb9d821120d5)
+
 [Building An Academic Knowledge Graph with OpenAI & Graph Database](https://medium.com/@yu-joshua/building-an-academic-knowledge-graph-with-openai-graph-database-12b320f08ef0) 
 
 ### Predictive Modeling and Recommendations
@@ -106,6 +109,7 @@ Furthermore, LLMs can assist in generating natural language explanations for the
 Integrating LLMs into these workflows doesn't replace existing graph algorithms; it supplements them. The combination of traditional graph algorithms and the contextual understanding provided by LLMs can significantly enhance the performance and usefulness of predictive modeling and recommendation systems in graph data science.
 
 **Resources:**
+
 [GDS Guide: Recommendation Systems](https://github.com/danb-neo4j/gds-guide/blob/main/usecase-specific.md#recommendation-systems)
 
 ### Graph Completion
