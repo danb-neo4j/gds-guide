@@ -51,4 +51,4 @@ For the initial iteration, the document will make the following assumptions abou
 * Logistics
 * Healthcare
 
-**[Graphs and Large Language Models (LLMs)](https://github.com/danb-neo4j/gds-guide/blob/main/graphs-llms.md)
+**[Graphs and Large Language Models (LLMs)](https://github.com/danb-neo4j/gds-guide/blob/main/graphs-llms.md)**
