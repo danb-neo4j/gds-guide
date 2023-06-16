@@ -3,7 +3,7 @@
 ## Overview
 The [Neo4j Graph Data Science (GDS)](https://neo4j.com/docs/graph-data-science/current/) library contains several [centrality algorithms](https://neo4j.com/docs/graph-data-science/current/algorithms/centrality/) which calculate a node's importance based upon its relationships to other nodes in the graph. The different centrality algorithims accomplish this task in many different ways and for different use cases. This guide is designed to help you quickly undersand the differences between the centrality algorithms and when to use each one. 
 
-*This is an unofficial guide and does not include all Centrality algorithms in the GDS library. Consult the [official Neo4j Graph Data Science documentation](https://neo4j.com/docs/graph-data-science/current/) for the most up-to-date, authoritative content about the GDS library and individual algorithms.*
+*This is an unofficial guide and does not include all algorithms in the GDS library. Consult the [official Neo4j Graph Data Science documentation](https://neo4j.com/docs/graph-data-science/current/) for the most up-to-date, authoritative content about the GDS library and individual algorithms.*
 
 ## GDS Centrality Algorithms
 **[Degree Centrality](https://neo4j.com/docs/graph-data-science/current/algorithms/degree-centrality/)**:
