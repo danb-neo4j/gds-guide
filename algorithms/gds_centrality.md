@@ -3,8 +3,6 @@
 ## Overview
 The [Neo4j Graph Data Science (GDS)](https://neo4j.com/docs/graph-data-science/current/) library contains several [centrality algorithms](https://neo4j.com/docs/graph-data-science/current/algorithms/centrality/) which calculate a node's importance based upon its relationships to other nodes in the graph. The different centrality algorithims accomplish this task in many different ways and for different use cases. This guide is designed to help you quickly undersand the differences between the centrality algorithms and when to use each one. 
 
-*This is an unofficial guide and does not include all algorithms in the GDS library. Consult the [official Neo4j Graph Data Science documentation](https://neo4j.com/docs/graph-data-science/current/) for the most up-to-date, authoritative content about the GDS library and individual algorithms.*
-
 ## GDS Centrality Algorithms
 **[Degree Centrality](https://neo4j.com/docs/graph-data-science/current/algorithms/degree-centrality/)**:
    - **Overview**: Degree Centrality calculates a node's importance by counting its relationships. By default, the Neo4j Degree Centrality algorithm counts outgoing nodes, but the [hyperparameters can be adjusted](https://neo4j.com/docs/graph-data-science/current/algorithms/degree-centrality/#algorithms-degree-centrality-orientation-example) to count incoming relationships or both. The GDS implementation also has hyperparameters for a [weighted degree centrality](https://neo4j.com/docs/graph-data-science/current/algorithms/degree-centrality/#algorithms-degree-centrality-weighted-example) calculation.
@@ -48,3 +46,4 @@ The [Neo4j Graph Data Science (GDS)](https://neo4j.com/docs/graph-data-science/c
    - **Cons**: Despite optimizaitons, CELF can still be computationally expensive to calculate on large graphs.
    - **When to use**: CELF is most helpful when you are attempting to identify a subset of nodes that will maximize the 'spread' in a network. Traditional use cases include disease detection, marketing campaigns, and IT network security. 
 
+*This is an unofficial guide and does not include all algorithms in the GDS library. Consult the [official Neo4j Graph Data Science documentation](https://neo4j.com/docs/graph-data-science/current/) for the most up-to-date, authoritative content about the GDS library and individual algorithms.*

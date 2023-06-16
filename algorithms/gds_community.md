@@ -3,8 +3,6 @@
 ## Overview
 Community Detection Algorithms identify tightly-connected groups of nodes within the overall network. Put anotherway, community detection algorithms identify natural clusters or communities within the graph. As with other families of GDS algoritims, the community detection algorithms approach this task in different ways and for different use cases. 
 
-*This is an unofficial guide and does not include all algorithms in the GDS library. Consult the [official Neo4j Graph Data Science documentation](https://neo4j.com/docs/graph-data-science/current/) for the most up-to-date, authoritative content about the GDS library and individual algorithms.*
-
 ## GDS Community Detection Algorithms
 
 **[Weakly Connected Components (WCC)](https://neo4j.com/docs/graph-data-science/current/algorithms/wcc/)**:
@@ -38,3 +36,5 @@ Community Detection Algorithms identify tightly-connected groups of nodes within
    - **Pros**: K-Means is a well-established clustering approach and provides a property-based clustering option within the GDS library.
    - **Cons**: K-Means requires pre-defining the number of clusters, which can have a significant impact on the final cluster assignments. It also requires that the nodes all have the same properties and that these properties are numeric values. Calculating the silhouette score, as part of evaluating cluster quality, can also be computationally expensive. 
    - **When to use**: Use K-means when you want to cluster based upon node properties rather than relationships. This can help capture properties and provide a comparison to relationship-based methods. It can be an effective approach when you have captured graph structure as embeddings on node properties and want to use this information for clustering.
+
+*This is an unofficial guide and does not include all algorithms in the GDS library. Consult the [official Neo4j Graph Data Science documentation](https://neo4j.com/docs/graph-data-science/current/) for the most up-to-date, authoritative content about the GDS library and individual algorithms.*
