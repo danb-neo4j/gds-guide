@@ -3,6 +3,7 @@
 The following pages contain summaries of selected algorithms in the [Neo4j Graph Data Science library](https://neo4j.com/docs/graph-data-science/current/). The objective is to provide easily-digestible and easily-comparable summaries of the algorithms to help data scientists decide when and how to use each. Summaries for the following algorithm families are available:
 * [Centrality](https://github.com/danb-neo4j/gds-guide/blob/main/algorithms/gds_centrality.md)
 * [Community Detection](https://github.com/danb-neo4j/gds-guide/blob/main/algorithms/gds_community.md)
+* [Similarity](https://github.com/danb-neo4j/gds-guide/blob/main/algorithms/gds_similarity.md)
 
 
 The summaries are organized by algorithm family and each contains the following:
