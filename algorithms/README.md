@@ -4,6 +4,7 @@ The following pages contain summaries of selected algorithms in the [Neo4j Graph
 * [Centrality](https://github.com/danb-neo4j/gds-guide/blob/main/algorithms/gds_centrality.md)
 * [Community Detection](https://github.com/danb-neo4j/gds-guide/blob/main/algorithms/gds_community.md)
 * [Similarity](https://github.com/danb-neo4j/gds-guide/blob/main/algorithms/gds_similarity.md)
+* [Pathfinding](https://github.com/danb-neo4j/gds-guide/blob/main/algorithms/gds_pathfinding.md)
 
 
 The summaries are organized by algorithm family and each contains the following:
