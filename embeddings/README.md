@@ -10,9 +10,9 @@ Node embeddings are useful for a variety of tasks, including:
 
 ## Graph Data Science Node Embeddings Guides
 The Neo4j Graph Data Science (GDS) library currently supports four node embedding algorithms, with each having its own strengths and weaknesses. The unofficial guides provide an overview of the different node embedding algorithms along with their pros, cons, and use cases. 
-* [FastRP](https://neo4j.com/docs/graph-data-science/current/machine-learning/node-embeddings/fastrp/) 
-* [Node2Vec](https://neo4j.com/docs/graph-data-science/current/machine-learning/node-embeddings/node2vec/)
-* [GraphSAGE](https://neo4j.com/docs/graph-data-science/current/machine-learning/node-embeddings/graph-sage/)
-* [HashGNN](https://neo4j.com/docs/graph-data-science/current/machine-learning/node-embeddings/hashgnn/)
+* [FastRP](https://github.com/danb-neo4j/gds-guide/blob/main/embeddings/fastrp.md) 
+* [Node2Vec](https://github.com/danb-neo4j/gds-guide/blob/main/embeddings/node2vec.md)
+* [GraphSAGE](https://github.com/danb-neo4j/gds-guide/blob/main/embeddings/graphSAGE.md)
+* [HashGNN](https://github.com/danb-neo4j/gds-guide/blob/main/embeddings/hashGNN.md)
 
 *This is an unofficial guide, so as always be sure to consult the [official Neo4j Graph Data Science documentation](https://neo4j.com/docs/graph-data-science/current/) for the most up-to-date, authoritative content about the GDS library and individual algorithms.*
