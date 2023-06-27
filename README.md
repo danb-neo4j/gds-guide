@@ -1,7 +1,7 @@
 # Practitioner's Guide to Getting Started with Neo4j GDS
 *Author: Daniel Bukowski, Graph Data Science Customer Success Architect, Neo4j*
 
-*Last Updated: 17 May 2023*
+*Last Updated: 27 June 2023*
 
 
 ## Description
