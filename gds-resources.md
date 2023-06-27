@@ -18,15 +18,3 @@
 ## Graph Projections
 GDS Manual: [Graph Catalog](https://neo4j.com/docs/graph-data-science/current/management-ops/graph-catalog-ops/)
 
-## Algorithms Overview
-*Neo4j GDS contains a substantial library of optimized algorithms The following are high-level resources. As this guide is developed, more resources will be added for specific categories.*
-* Book: [Graph Algorithms for Data Science](https://www.manning.com/books/graph-algorithms-for-data-science) This is a book, currently being written by independent engineer and graph data specialist Tomaz Bratanic, is a valuable resource for learning Neo4j Graph Data Science. It incorporates multiple notebooks and data sets and walks the user through the entire graph data science process including embeddings. *Note: As of April 2023 it is still in draft and may not yet be updated for Neo4j 5.x and new versions of the GDS library. The book is still highly, highly recommended. 
-* GDS Manual: [Graph Algorithms](https://neo4j.com/docs/graph-data-science/current/algorithms/)
-
-## Embeddings
-*Graph Embeddings are low-dimensional vectors that represent the nodes and edges of a graph. They are powerful tools to capture the structure and contents of a graph in a way that can be visualized, used with other graph algorithms, or passed to machine learning pipelines. The following resources may also be useful in learning about graph embeddings and how to most effectively use them:*
-* GDS Manual: [Node embeddings](https://neo4j.com/docs/graph-data-science/current/machine-learning/node-embeddings/)
-* Blog: [Getting Started with Graph Embeddings in Neo4j](https://towardsdatascience.com/getting-started-with-graph-embeddings-2f06030e97ae)
-* Blog: [Understanding graph embeddings with Neo4j and Emblaze](https://towardsdatascience.com/understanding-graph-embeddings-with-neo4j-and-emblaze-7e2d6ef56b8c)
-* GDS Manual: [FastRP and KNN Example](https://neo4j.com/docs/graph-data-science/current/end-to-end-examples/fastrp-knn-example/)
-* Blog: [Making FastRP Graph Embeddings Work for You](https://towardsdatascience.com/making-fastrp-graph-embeddings-work-for-you-f7344a535dc3)
