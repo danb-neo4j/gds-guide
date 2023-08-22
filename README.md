@@ -27,7 +27,7 @@ For the initial iteration, the document will make the following assumptions abou
 
 ## Table of Contents
 **[Neo4j Database Resources:](https://github.com/danb-neo4j/gds-guide/blob/main/neo4j-resources.md)** 
-* Graph Dababase and Neo4j Overview
+* Graph Database and Neo4j Overview
 * Neo4j Memory Configuration
 * Cypher
 * APOC Library
